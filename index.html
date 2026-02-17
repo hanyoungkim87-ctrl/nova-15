@@ -19,7 +19,6 @@
     *{ box-sizing:border-box; }
     body{ margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); }
 
-    /* Top header */
     .top{
       border-bottom:1px solid #eee;
       background:#fff;
@@ -58,7 +57,6 @@
       margin-left:10px;
     }
 
-    /* Nav bar like your screenshot */
     .nav{
       background:linear-gradient(180deg,var(--nav),var(--nav2));
       color:#fff;
@@ -78,7 +76,6 @@
     }
     .nav a:hover{ text-decoration:underline; }
 
-    /* Page layout */
     .page{
       max-width:1100px;
       margin:0 auto;
@@ -91,7 +88,6 @@
       align-items:start;
     }
 
-    /* Left info */
     h1{
       font-size:44px;
       margin:18px 0 14px;
@@ -119,7 +115,6 @@
       font-weight:800;
     }
 
-    /* Right media */
     .media{
       display:flex;
       flex-direction:column;
@@ -200,7 +195,6 @@
 
   <main class="page">
     <div class="grid">
-      <!-- LEFT: exact text -->
       <section aria-label="Product details">
         <h1>Nova 15</h1>
         <div class="price">$749.00</div>
@@ -217,24 +211,23 @@
         </div>
       </section>
 
-      <!-- RIGHT: images -->
       <section class="media" aria-label="Product images">
         <div class="hero">
-          <img id="heroImg" src="nova-main.png" alt="Nova 15">
+          <img id="heroImg" src="Nova-main.png" alt="Nova 15">
         </div>
 
         <div class="thumbs" role="listbox" aria-label="More views">
-          <button class="thumb" type="button" aria-current="false" data-src="nova-1.png" title="View 1">
-            <img src="nova-1.png" alt="View 1">
+          <button class="thumb" type="button" aria-current="false" data-src="Nova-1.png" title="View 1">
+            <img src="Nova-1.png" alt="View 1">
           </button>
-          <button class="thumb" type="button" aria-current="true" data-src="nova-main.png" title="Main view">
-            <img src="nova-main.png" alt="Main view">
+          <button class="thumb" type="button" aria-current="true" data-src="Nova-main.png" title="Main view">
+            <img src="Nova-main.png" alt="Main view">
           </button>
-          <button class="thumb" type="button" aria-current="false" data-src="nova-2.png" title="View 2">
-            <img src="nova-2.png" alt="View 2">
+          <button class="thumb" type="button" aria-current="false" data-src="Nova-2.png" title="View 2">
+            <img src="Nova-2.png" alt="View 2">
           </button>
-          <button class="thumb" type="button" aria-current="false" data-src="nova-3.png" title="View 3">
-            <img src="nova-3.png" alt="View 3">
+          <button class="thumb" type="button" aria-current="false" data-src="Nova-3.png" title="View 3">
+            <img src="Nova-3.png" alt="View 3">
           </button>
         </div>
       </section>
@@ -255,4 +248,3 @@
   </script>
 </body>
 </html>
-
